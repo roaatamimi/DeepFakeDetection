@@ -1,5 +1,4 @@
 
-# DeepFakeDetection.ipynb
 # DeepFake Detection
 
 Deepfakes pose a serious threat on security and can potentially harm individuals. With the advancement of Deepfake technologies, the creation of fake images and spread of misinformation is made quite easier which makes the development of advanced deepfake detection models necessary to ensure safeguarding and protection against malicious uses of deepfakes.

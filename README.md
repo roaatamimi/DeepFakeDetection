@@ -1,8 +1,40 @@
 
 # DeepFake Detection
 
-Deepfakes pose a serious threat on security and can potentially harm individuals. With the advancement of Deepfake technologies, the creation of fake images and spread of misinformation is made quite easier which makes the development of advanced deepfake detection models necessary to ensure safeguarding and protection against malicious uses of deepfakes.
-There have been multiple attempts on creating DF-detection models like the Facebook DFGC challenge. The solutions to the challenge included implementing transfer learning and using facial-recognition models to solve the problem.
-We will create a deepfake detection model using CNNs and Capsule Networks which are designed to detect anomalies. First, we will use a pretrained CNN model as an encoder to extract features from the images dataset that will be passed to the capsule network. The Capsule Network itself will consist of multiple layers of capsules, which are groups of neurons that learn to recognize specific features of the object. For example, one set of capsules may learn to recognize the shape of the face, while another may learn to recognize the texture of the skin. We then will train our model on batches of real and fake images.
+# Deepfake Detection Model
 
+## Overview
+A machine learning model that detects deepfake images using CNN and Capsule Networks to protect against malicious fake content.
+
+## Problem
+- Deepfakes threaten security and can harm individuals
+- Easy creation of fake images spreads misinformation
+- Need advanced detection to combat malicious uses
+
+## Solution
+Our model combines:
+- **CNN Encoder**: Extracts features from images
+- **Capsule Networks**: Detects anomalies and specific patterns
+  - Some capsules recognize face shapes
+  - Others identify skin textures
+  - Designed to spot inconsistencies in fake images
+
+## How It Works
+1. Load real and fake image datasets
+2. Use pretrained CNN to extract image features
+3. Pass features to Capsule Network layers
+4. Train on batches of real vs fake images
+5. Model learns to distinguish authentic from manipulated content
+
+## Inspiration
+Built upon previous work including Facebook's DFGC challenge solutions that used transfer learning and facial recognition techniques.
+
+## Tech Stack
+- Convolutional Neural Networks (CNN)
+- Capsule Networks
+- Transfer Learning
+- Computer Vision
+
+## Goal
+Create a robust detection system to safeguard against deepfake threats and protect digital media integrity.
 Potential Dataset: [deepfake and real images | Kaggle](https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images)

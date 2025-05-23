@@ -1,8 +1,6 @@
 
 # DeepFake Detection
 
-# Deepfake Detection Model
-
 ## Overview
 A machine learning model that detects deepfake images using CNN and Capsule Networks to protect against malicious fake content.
 
